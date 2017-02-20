@@ -1,14 +1,14 @@
 import { TrollPage } from './app.po';
 
-describe('troll App', () => {
-  let page: TrollPage;
+describe('test about sanity', function() {
+  var sanityPage = require("../e2e/function/sanityMethod_method.js")
 
   beforeEach(() => {
-    page = new TrollPage();
+    sanityPage = new TrollPage();
   });
 
   it('should display message saying app works', () => {
-    page.navigateTo();
-    expect(page.getParagraphText()).toEqual('app works!');
+    sanityPage.clickOnAbout();
+    expect(sanityPage.getParagraphText()).toEqual('app works!');
   });
 });
