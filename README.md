@@ -2,7 +2,9 @@
 # Troll
 
 git clone git@github.com:bellagrunt/angular2-wp-bp-troll.git
+
 cd angular2-wp-bp-troll/
+
 npm install
 
 ## To run on local use:
