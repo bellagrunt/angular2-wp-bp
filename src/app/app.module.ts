@@ -2,9 +2,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
-import { RouterModule }  from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { ReactiveFormsModule } from '@angular/forms';
+import { RouterModule, Routes } from '@angular/router';
+import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { headerComponent } from './header/app.headerComponent';
@@ -28,35 +29,14 @@ import { loginComponent } from './login/app.loginComponent';
     aboutComponent,
     newsComponent,
     contactComponent,
-    loginComponent
+    loginComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
     ReactiveFormsModule,
     HttpModule,
-    RouterModule.forRoot([
-    {
-      path: '',
-      component: homeComponent
-    },
-    {
-      path: 'about',
-      component: aboutComponent
-    }, 
-    {
-      path: 'news',
-      component: newsComponent
-    },
-    {
-      path: 'contact',
-      component: contactComponent
-    },
-    {
-      path: 'login',
-      component: loginComponent
-    },
-     ])
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
