@@ -16,6 +16,7 @@ import { aboutComponent } from './about/app.aboutComponent';
 import { newsComponent } from './news/app.newsComponent';
 import { contactComponent } from './contact/app.contactComponet';
 import { loginComponent } from './login/app.loginComponent';
+import { carouselComponent } from './carousel/app.carouselComponent';
 
 
 
@@ -30,6 +31,7 @@ import { loginComponent } from './login/app.loginComponent';
     newsComponent,
     contactComponent,
     loginComponent,
+    carouselComponent,
   ],
   imports: [
     BrowserModule,
