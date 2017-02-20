@@ -1,7 +1,12 @@
 
 # Troll
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-beta.32.3.
+git clone git@github.com:bellagrunt/angular2-wp-bp-troll.git
+cd angular2-wp-bp-troll/
+npm install
+
+## To run on local use:
+`npm start` or `ng serve`
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
@@ -28,3 +33,9 @@ Before running the tests make sure you are serving the app via `ng serve`.
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 # angular2-wp-bp-troll
+
+
+
+
+---------
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0-beta.32.3.
