@@ -14,8 +14,7 @@ import { navComponent } from './nav/app.navComponent';
 import { aboutComponent } from './about/app.aboutComponent';
 import { newsComponent } from './news/app.newsComponent';
 import { contactComponent } from './contact/app.contactComponet';
-
-
+import { loginComponent } from './login/app.loginComponent';
 
 
 
@@ -28,11 +27,13 @@ import { contactComponent } from './contact/app.contactComponet';
     navComponent,
     aboutComponent,
     newsComponent,
-    contactComponent
+    contactComponent,
+    loginComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    ReactiveFormsModule,
     HttpModule,
     RouterModule.forRoot([
     {
@@ -50,6 +51,10 @@ import { contactComponent } from './contact/app.contactComponet';
     {
       path: 'contact',
       component: contactComponent
+    },
+    {
+      path: 'login',
+      component: loginComponent
     },
      ])
   ],

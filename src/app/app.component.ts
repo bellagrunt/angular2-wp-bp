@@ -6,6 +6,7 @@ import { navComponent } from './nav/app.navComponent';
 import { aboutComponent } from './about/app.aboutComponent';
 import { newsComponent } from './news/app.newsComponent';
 import { contactComponent } from './contact/app.contactComponet';
+import { loginComponent } from './login/app.loginComponent';
 
 @Component({
   selector: 'app-root',
