@@ -1,6 +1,8 @@
 
 # Troll
 
+git fork git@github.com:bellagrunt/angular2-wp-bp-troll.git
+
 git clone git@github.com:bellagrunt/angular2-wp-bp-troll.git
 
 cd angular2-wp-bp-troll/
