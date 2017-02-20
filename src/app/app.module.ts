@@ -11,6 +11,12 @@ import { headerComponent } from './header/app.headerComponent';
 import { footerComponent } from './footer/app.footerComponent';
 import { homeComponent } from './home/app.homeComponent';
 import { navComponent } from './nav/app.navComponent';
+import { aboutComponent } from './about/app.aboutComponent';
+import { newsComponent } from './news/app.newsComponent';
+import { contactComponent } from './contact/app.contactComponet';
+
+
+
 
 
 @NgModule({
@@ -19,7 +25,10 @@ import { navComponent } from './nav/app.navComponent';
     headerComponent,
     footerComponent,
     homeComponent,
-    navComponent
+    navComponent,
+    aboutComponent,
+    newsComponent,
+    contactComponent
   ],
   imports: [
     BrowserModule,
@@ -28,8 +37,20 @@ import { navComponent } from './nav/app.navComponent';
     RouterModule.forRoot([
     {
       path: '',
-    component: homeComponent
-     }, 
+      component: homeComponent
+    },
+    {
+      path: 'about',
+      component: aboutComponent
+    }, 
+    {
+      path: 'news',
+      component: newsComponent
+    },
+    {
+      path: 'contact',
+      component: contactComponent
+    },
      ])
   ],
   providers: [],
