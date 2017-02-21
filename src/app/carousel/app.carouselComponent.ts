@@ -1,9 +1,16 @@
-import { Component } from '@angular/core';
-
-@Component ({
-    templateUrl: './carousel.html',
+import {Component, Input} from '@angular/core';
+ 
+@Component({
+  selector: 'carousel',
+  templateUrl: './carousel.html',
+  styleUrls: ['./app.carouselComponent.css'],
 })
-
-export class carouselComponent {
-    
+export class carouselComponent { 
+ 
+   @Input() datasource;
+   selectedImage;
+ 
+   setSelectedImage(image){
+      this.selectedImage= image;	
+   }
 }
