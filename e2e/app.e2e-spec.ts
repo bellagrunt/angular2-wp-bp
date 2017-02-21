@@ -1,11 +1,11 @@
 import { TrollPage } from './app.po';
 
 describe('test about sanity', function() {
-  var sanityPage = require("../e2e/function/sanityMethod_method.js")
+  var sanityPage = require("./e2e/sanityFunction_function.js")
 
-  beforeEach(() => {
-    sanityPage = new TrollPage();
-  });
+  // beforeEach(() => {
+  //   sanityPage = new TrollPage();
+  // });
 
   it('should display message saying app works', () => {
     sanityPage.clickOnAbout();

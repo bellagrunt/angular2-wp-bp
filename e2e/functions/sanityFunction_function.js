@@ -3,7 +3,7 @@
 var webdriver = require('selenium-webdriver');
 var sanityPage = {
 	get : function() {
-		appPage.get( "http://localhost:3002/" );
+		appPage.get( "http://localhost:4200" );
 	},
 
 	// validating home page
