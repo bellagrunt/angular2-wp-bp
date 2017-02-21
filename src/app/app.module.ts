@@ -17,6 +17,7 @@ import { newsComponent } from './news/app.newsComponent';
 import { contactComponent } from './contact/app.contactComponet';
 import { loginComponent } from './login/app.loginComponent';
 import { carouselComponent } from './carousel/app.carouselComponent';
+import { galleryComponent } from './gallery/app.galleryComponent';
 
 
 
@@ -32,6 +33,7 @@ import { carouselComponent } from './carousel/app.carouselComponent';
     contactComponent,
     loginComponent,
     carouselComponent,
+    galleryComponent,
   ],
   imports: [
     BrowserModule,
