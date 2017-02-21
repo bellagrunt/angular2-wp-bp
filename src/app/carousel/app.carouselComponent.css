@@ -5,3 +5,23 @@
 .carousel-inner {
     height: 600px;
 }*/
+
+.item active {
+    height: auto;
+}
+
+.item {
+    height: auto;
+}
+
+.image1 {
+    height: 600px;
+    overflow: hidden;
+    vertical-align: top;
+}
+
+.image2 {
+    height: 600px;
+    overflow: hidden;
+    vertical-align: top;
+}
