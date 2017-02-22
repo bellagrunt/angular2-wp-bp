@@ -10,7 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/app.headerComponent';
 import { footerComponent } from './footer/app.footerComponent';
-import { homeComponent } from './home/app.homeComponent';
+import { HomeComponent } from './home/app.homeComponent';
 import { navComponent } from './nav/app.navComponent';
 import { AboutComponent } from './about/app.aboutComponent';
 import { newsComponent } from './news/app.newsComponent';
@@ -26,7 +26,7 @@ import { galleryComponent } from './gallery/app.galleryComponent';
     AppComponent,
     HeaderComponent,
     footerComponent,
-    homeComponent,
+    HomeComponent,
     navComponent,
     AboutComponent,
     newsComponent,
