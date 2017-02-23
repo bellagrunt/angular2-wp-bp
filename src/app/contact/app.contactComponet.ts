@@ -5,7 +5,7 @@ import { Component } from "@angular/core";
     styleUrls: ['./app.contactComponent.css'],
 })
 
-export class contactComponent {
+export class ContactComponent {
 
 public contact = {
   firstName: "Matt", 

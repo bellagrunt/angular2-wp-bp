@@ -9,15 +9,15 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/app.headerComponent';
-import { footerComponent } from './footer/app.footerComponent';
+import { FooterComponent } from './footer/app.footerComponent';
 import { HomeComponent } from './home/app.homeComponent';
-import { navComponent } from './nav/app.navComponent';
+import { NavComponent } from './nav/app.navComponent';
 import { AboutComponent } from './about/app.aboutComponent';
-import { newsComponent } from './news/app.newsComponent';
-import { contactComponent } from './contact/app.contactComponet';
-import { loginComponent } from './login/app.loginComponent';
-import { carouselComponent } from './carousel/app.carouselComponent';
-import { galleryComponent } from './gallery/app.galleryComponent';
+import { NewsComponent } from './news/app.newsComponent';
+import { ContactComponent } from './contact/app.contactComponet';
+import { LoginComponent } from './login/app.loginComponent';
+import { CarouselComponent } from './carousel/app.carouselComponent';
+import { GalleryComponent } from './gallery/app.galleryComponent';
 
 
 
@@ -25,15 +25,15 @@ import { galleryComponent } from './gallery/app.galleryComponent';
   declarations: [
     AppComponent,
     HeaderComponent,
-    footerComponent,
+    FooterComponent,
     HomeComponent,
-    navComponent,
+    NavComponent,
     AboutComponent,
-    newsComponent,
-    contactComponent,
-    loginComponent,
-    carouselComponent,
-    galleryComponent,
+    NewsComponent,
+    ContactComponent,
+    LoginComponent,
+    CarouselComponent,
+    GalleryComponent,
   ],
   imports: [
     BrowserModule,

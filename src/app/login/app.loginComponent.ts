@@ -7,7 +7,7 @@ import { FormBuilder, Validators } from '@angular/forms';
     styleUrls: ['./app.loginComponent.css'],
 })
 
-export class loginComponent {
+export class LoginComponent {
   public loginForm = this.fb.group({
     email: ["", Validators.required],
     password: ["", Validators.required]

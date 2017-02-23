@@ -16,7 +16,7 @@ import {Component, Input} from '@angular/core';
 	}
   `]
 })
-export class galleryComponent { 
+export class GalleryComponent { 
  
    @Input() datasource;
    selectedImage;

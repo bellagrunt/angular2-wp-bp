@@ -5,6 +5,6 @@ import { Component } from "@angular/core";
     styleUrls: ['./app.newsComponent.css'],
 })
 
-export class newsComponent {
+export class NewsComponent {
     
 }

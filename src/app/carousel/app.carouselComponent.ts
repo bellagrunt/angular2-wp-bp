@@ -5,7 +5,7 @@ import { Component, Input } from '@angular/core';
   templateUrl: './carousel.html',
   styleUrls: ['./app.carouselComponent.css'],
 })
-export class carouselComponent { 
+export class CarouselComponent { 
  
    @Input() datasource;
    selectedImage;
