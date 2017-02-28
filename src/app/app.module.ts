@@ -18,6 +18,8 @@ import { ContactComponent } from './contact/app.contactComponet';
 import { LoginComponent } from './login/app.loginComponent';
 import { CarouselComponent } from './carousel/app.carouselComponent';
 import { GalleryComponent } from './gallery/app.galleryComponent';
+import { Admin2Component } from './admin2/admin2.component';
+import { AdminComponent } from './admin/admin.component';
 
 
 
@@ -34,6 +36,8 @@ import { GalleryComponent } from './gallery/app.galleryComponent';
     LoginComponent,
     CarouselComponent,
     GalleryComponent,
+    Admin2Component,
+    AdminComponent,
   ],
   imports: [
     BrowserModule,
