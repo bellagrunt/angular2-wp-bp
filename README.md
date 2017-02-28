@@ -38,7 +38,12 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 # angular2-wp-bp-troll
 
+# create your own component
+ng g component example
 
+# Setting up with firebase
+
+npm install firebase angularfire2 angular2-flash-messages
 
 
 ---------
