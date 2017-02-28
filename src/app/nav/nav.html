@@ -23,21 +23,29 @@
             <li class="about">
                 <a routerLink="/about">About</a>
             </li>
-            <li>
+            <li  *ngIf="(af.auth | async)">
                 <a routerLink="/news">News</a>
             </li>
-            <li>
+            <li  *ngIf="(af.auth | async)">
                 <a routerLink="/gallery">Gallery</a>
             </li>
             <li>
                 <a routerLink="/contact">Contact</a>
             </li>
-            <li>
+            <!--<li>
                 <a routerLink="/login">Log In</a>
+            </li>-->
+            <li  *ngIf="(af.auth | async)">
+                <a routerLink="/admin">Admin</a>
             </li>
-            <li>
-                <a href="">Login</a>
-            </li>
+            </ul>
+            <ul class="nav navbar-nav">
+                <li *ngIf="!(af.auth | async)">
+                    <a (click)="login()">Login</a>
+                </li>
+                <li *ngIf="(af.auth | async)">
+                    <a (click)="logout()">Logout</a>
+                </li>
             </ul>
         </div>
     </div>
