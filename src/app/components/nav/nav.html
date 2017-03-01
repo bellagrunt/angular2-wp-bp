@@ -38,6 +38,9 @@
             <li  *ngIf="(af.auth | async)">
                 <a routerLink="/listings">listings</a>
             </li>
+            <li  *ngIf="(af.auth | async)">
+                <a routerLink="/admin">admin</a>
+            </li>
             </ul>
             <ul class="nav navbar-nav">
                 <li *ngIf="!(af.auth | async)">

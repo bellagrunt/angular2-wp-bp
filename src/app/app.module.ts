@@ -24,6 +24,7 @@ import { GalleryComponent } from './components/gallery/app.galleryComponent';
 import { AddTrollComponent } from './components/add-troll/add-troll.component';
 import { EditTrollComponent } from './components/edit-troll/edit-troll.component';
 import { ListingsComponent } from './components/listings/listings.component';
+import { AdminComponent } from './components/admin/admin.component';
 
 export const firebaseConfig = {
   apiKey: 'AIzaSyAx0_EJELeGwYNS8YOsD1UiupYHXqtkdp4',
@@ -54,6 +55,7 @@ const myFirebaseAuthConfig = {
     AddTrollComponent,
     EditTrollComponent,
     ListingsComponent,
+    AdminComponent,
   ],
   imports: [
     BrowserModule,
