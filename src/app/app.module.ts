@@ -8,6 +8,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppRoutingModule } from './app-routing.module';
 import { AngularFireModule, AuthProviders, AuthMethods } from 'angularfire2';
 import { FirebaseService } from './services/firebase.service';
+import { FlashMessagesModule } from 'angular2-flash-messages';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/app.headerComponent';
@@ -20,10 +21,9 @@ import { ContactComponent } from './components/contact/app.contactComponet';
 import { LoginComponent } from './components/login/app.loginComponent';
 import { CarouselComponent } from './components/carousel/app.carouselComponent';
 import { GalleryComponent } from './components/gallery/app.galleryComponent';
-import { AdminComponent } from './components/admin/admin.component';
 import { AddTrollComponent } from './components/add-troll/add-troll.component';
 import { EditTrollComponent } from './components/edit-troll/edit-troll.component';
-import { ListingComponent } from './components/listing/listing.component';
+import { ListingsComponent } from './components/listings/listings.component';
 
 export const firebaseConfig = {
   apiKey: 'AIzaSyAx0_EJELeGwYNS8YOsD1UiupYHXqtkdp4',
@@ -51,14 +51,14 @@ const myFirebaseAuthConfig = {
     LoginComponent,
     CarouselComponent,
     GalleryComponent,
-    AdminComponent,
     AddTrollComponent,
     EditTrollComponent,
-    ListingComponent,
+    ListingsComponent,
   ],
   imports: [
     BrowserModule,
     FormsModule,
+    FlashMessagesModule,
     AngularFireModule.initializeApp(firebaseConfig, myFirebaseAuthConfig),
     ReactiveFormsModule,
     HttpModule,
