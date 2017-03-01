@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
-import { FirebaseService } from '../services/firebase.service';
+import { FirebaseService } from '../../services/firebase.service';
 
 
 @Component({
-  // selector: 'app-admin',
+  selector: 'app-admin',
   templateUrl: './admin.component.html',
   styleUrls: ['./admin.component.css']
 })

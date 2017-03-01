@@ -10,19 +10,20 @@ import { AngularFireModule, AuthProviders, AuthMethods } from 'angularfire2';
 import { FirebaseService } from './services/firebase.service';
 
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/app.headerComponent';
-import { FooterComponent } from './footer/app.footerComponent';
-import { HomeComponent } from './home/app.homeComponent';
-import { NavComponent } from './nav/app.navComponent';
-import { AboutComponent } from './about/app.aboutComponent';
-import { NewsComponent } from './news/app.newsComponent';
-import { ContactComponent } from './contact/app.contactComponet';
-import { LoginComponent } from './login/app.loginComponent';
-import { CarouselComponent } from './carousel/app.carouselComponent';
-import { GalleryComponent } from './gallery/app.galleryComponent';
-import { AdminComponent } from './admin/admin.component';
-import { AddTrollComponent } from './add-troll/add-troll.component';
-import { EditTrollComponent } from './edit-troll/edit-troll.component';
+import { HeaderComponent } from './components/header/app.headerComponent';
+import { FooterComponent } from './components/footer/app.footerComponent';
+import { HomeComponent } from './components/home/app.homeComponent';
+import { NavComponent } from './components/nav/app.navComponent';
+import { AboutComponent } from './components/about/app.aboutComponent';
+import { NewsComponent } from './components/news/app.newsComponent';
+import { ContactComponent } from './components/contact/app.contactComponet';
+import { LoginComponent } from './components/login/app.loginComponent';
+import { CarouselComponent } from './components/carousel/app.carouselComponent';
+import { GalleryComponent } from './components/gallery/app.galleryComponent';
+import { AdminComponent } from './components/admin/admin.component';
+import { AddTrollComponent } from './components/add-troll/add-troll.component';
+import { EditTrollComponent } from './components/edit-troll/edit-troll.component';
+import { ListingComponent } from './components/listing/listing.component';
 
 export const firebaseConfig = {
   apiKey: 'AIzaSyAx0_EJELeGwYNS8YOsD1UiupYHXqtkdp4',
@@ -53,6 +54,7 @@ const myFirebaseAuthConfig = {
     AdminComponent,
     AddTrollComponent,
     EditTrollComponent,
+    ListingComponent,
   ],
   imports: [
     BrowserModule,

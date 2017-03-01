@@ -1,13 +1,13 @@
 import { NgModule }              from '@angular/core';
 import { RouterModule, Routes }  from '@angular/router';
 
-import { HomeComponent } from './home/app.homeComponent';
-import { AboutComponent } from './about/app.aboutComponent';
-import { NewsComponent } from './news/app.newsComponent';
-import { ContactComponent } from './contact/app.contactComponet';
-import { LoginComponent } from './login/app.loginComponent';
-import { GalleryComponent } from './gallery/app.galleryComponent';
-import { AdminComponent } from './admin/admin.component';
+import { HomeComponent } from './components/home/app.homeComponent';
+import { AboutComponent } from './components/about/app.aboutComponent';
+import { NewsComponent } from './components/news/app.newsComponent';
+import { ContactComponent } from './components/contact/app.contactComponet';
+import { LoginComponent } from './components/login/app.loginComponent';
+import { GalleryComponent } from './components/gallery/app.galleryComponent';
+import { AdminComponent } from './components/admin/admin.component';
 
 
 const appRoutes: Routes = [
