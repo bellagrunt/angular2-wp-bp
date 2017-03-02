@@ -29,14 +29,11 @@
             <li  *ngIf="(af.auth | async)">
                 <a routerLink="/gallery">Gallery</a>
             </li>
-            <li>
-                <a routerLink="/contact">Contact</a>
+            <li  *ngIf="(af.auth | async)">
+                <a routerLink="/listings">Listings</a>
             </li>
             <li  *ngIf="(af.auth | async)">
-                <a routerLink="/listings">listings</a>
-            </li>
-            <li  *ngIf="(af.auth | async)">
-                <a routerLink="/admin">admin</a>
+                <a routerLink="/admin">Admin</a>
             </li>
             <!--<li *ngIf="!(af.auth | async)">
                 <a routerLink="/login">Log In</a>
@@ -44,6 +41,9 @@
             <!--<li>
                 <a routerLink="/login">Log In</a>
             </li>-->
+            <li>
+                <a routerLink="/contact">Contact</a>
+            </li>
             </ul>
             <ul class="nav navbar-nav">
                 <li *ngIf="!(af.auth | async)">
