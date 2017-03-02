@@ -27,3 +27,7 @@
 [class*='col-']:last-of-type {
   padding-right: 0;
 }
+
+.content {
+  margin: 3%;
+}
