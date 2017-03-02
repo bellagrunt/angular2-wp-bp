@@ -13,7 +13,6 @@ label {
 }
 
 #container {
-  font-family: 'Gloria Hallelujah';
   max-width: 100%;
   background-color: #fff;
   padding: 5px 30px 9px 30px;
@@ -23,7 +22,6 @@ label {
 }
 
 .contact-form {
-  text-decoration: underline;
   text-align: center;
   font-weight: 800;
   font-size: 40px; 
@@ -37,15 +35,15 @@ input[type] {
 
 input[type='submit'] {
   cursor: pointer;
+  background-color: #00BFFF;
+  color: #000;
 }
 
 input {
   border-radius: 5px;
-  font-family: 'Indie Flower';
   padding: 5px 5px;
 }
 
 #msg {
   border-radius: 5px;
-  font-family: 'Indie Flower';
 }
