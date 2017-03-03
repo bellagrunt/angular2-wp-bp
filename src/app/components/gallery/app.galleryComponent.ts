@@ -10,9 +10,7 @@ export class GalleryComponent {
 
 textGallerys = [
     {'dataOne': 'John Doe'},
-    {'dataOne': 'This is an example text'},
     {'dataTwo': 'Jane Doe'},
-    {'dataTwo': 'This can be example text'},
   ];
 
 imageGallerys = [
@@ -35,8 +33,3 @@ imageGallerys = [
 //   ];
 
 }
-
-// imageGallery = [
-//     {'dataOne': '../../assets/graphics/john.jpeg'},
-//     {'dataTwo': '../../assets/graphics/john1.jpeg'},
-//   ];
