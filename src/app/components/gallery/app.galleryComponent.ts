@@ -8,24 +8,35 @@ import {Component, Input} from '@angular/core';
 })
 export class GalleryComponent { 
 
-galleries1 = [
-    {type: 'text', 'data': 'John'},
-    {type: 'text', 'data': 'Art'},
-    {type: ’image’, 'data': ’../../assets/graphics/john.jpeg'},
+textGallerys = [
+    {'dataOne': 'John Doe'},
+    {'dataOne': 'This is an example text'},
+    {'dataTwo': 'Jane Doe'},
+    {'dataTwo': 'This can be example text'},
   ];
 
-// galleries2 = [
-//     {type: 'test', data ; ’lol’},
-//     {type:’image’, data:’http://placehold.it/700x400'},
+imageGallerys = [
+    {'imageOne': '../../assets/graphics/john.jpeg'},
+    {'imageTwo': '../../assets/graphics/images22.jpeg'},
+  ];
+
+// textOnes = [
+//     {type: 'text', 'data': 'John Doe'},
+//     {type: 'text', 'data': 'This is an example text'},
 //   ];
 
+// imageTwos = [
+//     {type: 'image', 'data': '../../assets/graphics/john.jpeg'},
+//   ];
 
-  // images;
+// textTwos = [
+//     {type: 'text', 'data': 'John Doe'},
+//     {type: 'text', 'data': 'This is an example text'},
+//   ];
 
-  //  @Input() datasource;
-  //  selectedImage;
- 
-  //  setSelectedImage(image){
-  //     this.selectedImage= image;	
-  //  }
 }
+
+// imageGallery = [
+//     {'dataOne': '../../assets/graphics/john.jpeg'},
+//     {'dataTwo': '../../assets/graphics/john1.jpeg'},
+//   ];
