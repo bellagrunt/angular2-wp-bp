@@ -8,19 +8,16 @@ import {Component, Input} from '@angular/core';
 })
 export class GalleryComponent { 
 
-  galleries1 = [
-    'lol',
-    'wow',
-    'hi',
-    'http://placehold.it/700x400',
+galleries1 = [
+    {type: 'text', 'data': 'John'},
+    {type: 'text', 'data': 'Art'},
+    {type: ’image’, 'data': ’../../assets/graphics/john.jpeg'},
   ];
 
-  galleries2 = [
-    'lol',
-    'wow',
-    'hi',
-    'http://placehold.it/700x400',
-  ];
+// galleries2 = [
+//     {type: 'test', data ; ’lol’},
+//     {type:’image’, data:’http://placehold.it/700x400'},
+//   ];
 
 
   // images;
