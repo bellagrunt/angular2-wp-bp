@@ -11,21 +11,10 @@
         <div class="row">
             <div class="col-md-6 portfolio-item">
                 <ul>
-                    <li *ngFor="let imageGallery of imageGallerys">
-                        <img [src]='imageGallery.imageOne'>
-                    </li>
-                    <li *ngFor="let textGallery of textGallerys">
-                        {{textGallery.dataOne}}
-                    </li>
-                </ul>
-            </div>
-            <div class="col-md-6 portfolio-item">
-                <ul>
-                    <li *ngFor="let imageGallery of imageGallerys">
-                        <img [src]='imageGallery.imageTwo'>
-                    </li>
-                    <li *ngFor="let textGallery of textGallerys">
-                        {{textGallery.dataTwo}}
+                    <li *ngFor="let item of gallery">
+                        <img [src]='item.image'>
+                        <h3>{{item.title}}</h3>
+                        <div>{{item.description}}</div>
                     </li>
                 </ul>
             </div>

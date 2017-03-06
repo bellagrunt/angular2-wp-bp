@@ -8,17 +8,20 @@ import {Component, Input} from '@angular/core';
 })
 export class GalleryComponent { 
 
-textGallerys = [
-    {'dataOne': 'John Doe'},
-    {'dataOne': 'This is an example text'},
-    {'dataTwo': 'Jane Doe'},
-    {'dataTwo': 'This can be example text'},
-  ];
 
-imageGallerys = [
-    {'imageOne': '../../assets/graphics/john.jpeg'},
-    {'imageTwo': '../../assets/graphics/images22.jpeg'},
-  ];
+gallery = [
+  {
+    title : 'John Doe',
+    description : 'This is an example text',
+    image : '../../assets/graphics/john.jpeg'
+  },
+  {
+    title : 'John Doe',
+    description : 'This is an example text',
+    image : '../../assets/graphics/images22.jpeg'
+  }
+]
+
 
 // textOnes = [
 //     {type: 'text', 'data': 'John Doe'},
