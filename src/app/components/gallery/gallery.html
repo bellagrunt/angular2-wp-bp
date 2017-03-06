@@ -1,4 +1,4 @@
-         <!--Page Header -->
+ <!--Page Header -->
         <div class="row">
             <div class="col-lg-12">
                 <h1 class="page-header">Gallery
@@ -9,27 +9,16 @@
 
 
         <div class="row">
-            <div class="col-md-6 portfolio-item">
+            <div class="col-lg-12 portfolio-item">
                 <ul>
-                    <li *ngFor="let imageGallery of imageGallerys">
-                        <img [src]='imageGallery.imageOne'>
-                    </li>
-                    <li *ngFor="let textGallery of textGallerys">
-                        {{textGallery.dataOne}}
+                    <li *ngFor="let item of gallery">
+                        <img [src]='item.image'>
+                        <h3>{{item.title}}</h3>
+                        <div>{{item.description}}</div>
                     </li>
                 </ul>
             </div>
-            <!--<div class="col-md-6 portfolio-item">
-                <ul>
-                    <li *ngFor="let imageGallery of imageGallerys">
-                        <img [src]='imageGallery.imageTwo'>
-                    </li>
-                    <li *ngFor="let textGallery of textGallerys">
-                        {{textGallery.dataTwo}}
-                    </li>
-                </ul>
-            </div>
-        </div>-->
+        </div>
 
 <!--<div class="gallery container">-->
     <!--<div class="row">
@@ -139,5 +128,6 @@
             </div>
         </div>-->
         <!-- /.row -->
+
 
         <hr>
