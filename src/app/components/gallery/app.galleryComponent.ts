@@ -13,17 +13,17 @@ gallery = [
   {
     title : 'John Doe',
     description : 'This is an example text',
-    image : '../../assets/graphics/john.jpeg'
+    image : 'http://placehold.it/700x400'
   },
   {
     title : 'Jane Doe',
     description : 'This is an example text',
-    image : '../../assets/graphics/images22.jpeg'
+    image : 'http://placehold.it/700x400'
   },
     {
     title : 'Alex Doe',
     description : 'This is an example text',
-    image : '../../assets/graphics/john.jpeg'
+    image : 'http://placehold.it/700x400'
   }
 ]
 
@@ -32,17 +32,17 @@ gallery1 = [
   {
     title : 'Jane Doe',
     description : 'This is an example text',
-    image : '../../assets/graphics/images22.jpeg'
+    image : 'http://placehold.it/700x400'
   },
   {
     title : 'Alex Doe',
     description : 'This is an example text',
-    image : '../../assets/graphics/john.jpeg'
+    image : 'http://placehold.it/700x400'
   },
     {
     title : 'John Doe',
     description : 'This is an example text',
-    image : '../../assets/graphics/images22.jpeg'
+    image : 'http://placehold.it/700x400'
   }
 ]
 

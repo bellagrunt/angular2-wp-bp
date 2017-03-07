@@ -8,10 +8,10 @@
         </div>
 
         <div class="row">
-            <div class="col-6 col-sm-3 portfolio-item">
+            <div class="col-md-6 portfolio-item">
                 <ul>
                     <li *ngFor="let item of gallery">
-                        <img [src]='item.image'>
+                        <img class="img-responsive" [src]='item.image' alt="">
                         <h3>{{item.title}}</h3>
                         <div>{{item.description}}</div>
                     </li>
@@ -20,10 +20,10 @@
         </div>
 
         <div class="row">
-            <div class="col-6 col-sm-3 portfolio-item">
+            <div class="col-md-6 portfolio-item">
                 <ul>
                     <li *ngFor="let item of gallery1">
-                        <img [src]='item.image'>
+                        <img class="img-responsive" [src]='item.image' alt="">
                         <h3>{{item.title}}</h3>
                         <div>{{item.description}}</div>
                     </li>
@@ -45,14 +45,13 @@
         <!-- Projects Row -->
         <!--<div class="row">
             <div class="col-md-6 portfolio-item">
-                <a href="#">
+                <!--<a href="#">
                     <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
+                </a>-->
+                <!--<h3>
                     <a href="#">Project One</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
+                </h3>-->
+            <!--</div>
             <div class="col-md-6 portfolio-item">
                 <a href="#">
                     <img class="img-responsive" src="http://placehold.it/700x400" alt="">
