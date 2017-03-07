@@ -8,7 +8,7 @@ import {Component, Input} from '@angular/core';
 })
 export class GalleryComponent { 
 
-
+// row one
 gallery = [
   {
     title : 'John Doe',
@@ -27,24 +27,23 @@ gallery = [
   }
 ]
 
-
-// textOnes = [
-//     {type: 'text', 'data': 'John Doe'},
-//     {type: 'text', 'data': 'This is an example text'},
-//   ];
-
-// imageTwos = [
-//     {type: 'image', 'data': '../../assets/graphics/john.jpeg'},
-//   ];
-
-// textTwos = [
-//     {type: 'text', 'data': 'John Doe'},
-//     {type: 'text', 'data': 'This is an example text'},
-//   ];
+// row two
+gallery1 = [
+  {
+    title : 'Jane Doe',
+    description : 'This is an example text',
+    image : '../../assets/graphics/images22.jpeg'
+  },
+  {
+    title : 'Alex Doe',
+    description : 'This is an example text',
+    image : '../../assets/graphics/john.jpeg'
+  },
+    {
+    title : 'John Doe',
+    description : 'This is an example text',
+    image : '../../assets/graphics/images22.jpeg'
+  }
+]
 
 }
-
-// imageGallery = [
-//     {'dataOne': '../../assets/graphics/john.jpeg'},
-//     {'dataTwo': '../../assets/graphics/john1.jpeg'},
-//   ];
