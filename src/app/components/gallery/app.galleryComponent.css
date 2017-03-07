@@ -4,19 +4,14 @@
     margin-top: 20px;
 }*/
 
-.blur {
-    -webkit-filter: blur(4px)
-    
+ul li {
+  text-decoration: none;
+  list-style-type: none;
+  
 }
 
-
-.no-gutters {
-  margin-right: 0;
-  margin-left: 0;
-
-  > .col,
-  > [class*="col-"] {
-    padding-right: 0;
-    padding-left: 0;
-  }
+.gallery-page-header {
+  left: 38px;
+  padding: 4px 4px 10px 0px;
+  position: relative;
 }
