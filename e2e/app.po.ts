@@ -1,8 +1,8 @@
 import { browser, element, by } from 'protractor';
 
-export class TrollPage {
+export class HomePage {
   navigateTo() {
-    return browser.get('/');
+    return browser.get('http://localhost:4200/');
   }
 
   getParagraphText() {

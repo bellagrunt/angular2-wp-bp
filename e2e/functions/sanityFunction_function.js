@@ -8,8 +8,12 @@ var sanityPage = {
 
 	// validating home page
 
-	clickOnAbout : function() {
-		element( by.className( "about" ) ).click();
+	clickOnHome : function() {
+		element( by.className( "home" ) ).click();
+	},
+
+	validateHome : function() {
+		return element( by.css( "h1" ) ).getText();
 	},
 
 	// validating contact page
@@ -22,7 +26,7 @@ var sanityPage = {
 
 	// validating about page
 	clickOnAbout : function() {
-		element( by.className( "about" ) ).click();
+		element( by.className( "about-template" ) ).click();
 	},
 
 	validateAbout : function() {
