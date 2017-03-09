@@ -7,10 +7,10 @@ import { Component, Input } from '@angular/core';
 })
 export class CarouselComponent { 
  
-   @Input() datasource;
-   selectedImage;
+  //  @Input() datasource;
+  //  selectedImage;
  
-   setSelectedImage(image){
-      this.selectedImage= image;	
-   }
+  //  setSelectedImage(image){
+  //     this.selectedImage= image;	
+  //  }
 }
