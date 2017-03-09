@@ -1,5 +1,9 @@
 
-# Troll
+# Angular 2 template
+---------------------------
+Purpose: provide a template for people who are starting a project and need a template filled with
+useful components. This template will also have full automation coverage on e2e and unit testing. 
+This template will not only save time, but be very easy to maintain as well. 
 
 git fork git@github.com:bellagrunt/angular2-wp-bp-troll.git
 
